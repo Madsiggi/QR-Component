@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: hsl(212, 45%, 89%);
+  min-width: 375px;
+}
+
+body {
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.qr-card {
+  background-color: white;
+  padding: 1em;
+  border-radius: 1.25em;
+  max-width: 320px;
+  margin: auto;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+}
+
+.qr-card-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.25rem;
+}
+
+.qr-card-title {
+  font-size: 1.38rem;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+.qr-card-text {
+  font-size: 0.94rem;
+  font-weight: 400;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.qr-card-title,
+.qr-card-text {
+  margin: 1em 0.8em;
+}
+
+.attribution {
+  margin: 5px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
